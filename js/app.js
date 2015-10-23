@@ -37,6 +37,7 @@ avenue.controller("detailedViewController", ['$scope', '$http', '$window', '$rou
         for (var i = 0; i < data.items.length; i++) {
             if (data.items[i].detailedLinkID == $routeParams.id) {
                 $scope.item = data.items[i];
+                setCookie("html_player", 1, 365);
                 break;
             }
         }
