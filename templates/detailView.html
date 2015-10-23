@@ -6,11 +6,11 @@
                     <div class="detailed-header">{{item.detaildHeader}}</div>
                     <br />
                     <div class="detailed-description">
-                       <!-- {{item.description | nl2br}}-->
+                        <!-- {{item.description | nl2br}}-->
                         <p ng-bind-html="item.description | nl2br"></p>
                     </div>
                     <br />
-                    <div class="detailed-header-detail">Work exhibited at: </div>
+                    <div class="detailed-header-detail" ng-show="item.workExhibited.length > 0">Work exhibited at: </div>
                     <ul>
                         <li ng-repeat="workExhibited in item.workExhibited">
                             <a href="#/{{workExhibited.link}}">{{workExhibited.title}}</a>
@@ -21,9 +21,22 @@
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-8">
+                <div class="detailed-videos-list">
+                    <div ng-repeat="video in item.videos" >
+                        <video width="100%" height="400" controls poster="{{video.poster}}">
+                            <source src="{{video.videoLink}}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="text-holder">{{video.caption}}</div>
+                    </div>
+                </div>
+
                 <div class="detailed-image-list">
-                    <div class="detailed-image-holder" ng-repeat="imageSrc in item.images">
-                        <img src="{{imageSrc}}" />
+                    <div ng-repeat="image in item.images">
+                        <div class="detailed-image-holder">
+                            <img src="{{image.imageLink}}" />
+                        </div>
+                        <div class="text-holder">{{image.caption}}</div>
                     </div>
                 </div>
             </div>
@@ -38,11 +51,14 @@
                 <div class="pull-right"><a href="">prev</a>&nbsp;/&nbsp;<a href="#">next</a></div>
             </div>
         </div>
-        <div ng-show="noDataFound"><h2>No Data Found</h2></div>
+        <div ng-show="noDataFound">
+            <h2>No Data Found</h2>
+        </div>
         <div class="col-md-4" ng-repeat="item in list">
             <a class="content-holder" href="#/detailedView/{{item.detailedLinkID}}">
-               <div class="image-holder">
-                    <img src="{{item.coverImage}}"/></div>
+                <div class="image-holder">
+                    <img src="{{item.coverImage}}" />
+                </div>
                 <div class="text-holder">{{item.title}}</div>
             </a>
         </div>

@@ -11,7 +11,42 @@
       "link":"Alchemy"
     }
     ],
-    "images":["../images/akb/alchemy/1.JPG","../images/akb/alchemy/2.JPG","../images/akb/alchemy/3.JPG","../images/akb/alchemy/4.JPG","../images/akb/alchemy/5.JPG","../images/akb/alchemy/6.JPG","../images/akb/alchemy/7.JPG"]
+    "images":[{
+      "imageLink":"../images/akb/alchemy/1.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/alchemy/2.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/alchemy/3.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/alchemy/4.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/alchemy/5.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/alchemy/6.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    }
+    ],
+    "videos":[{
+      "poster":"../images/posterimage.PNG",
+     "videoLink":"../images/samplevideo.mp4",
+      "caption":"Salman Khan selfi"
+    },
+    {
+        "poster":"../images/posterimage.PNG",
+    "videoLink":"../images/samplevideo.mp4",
+      "caption":"Lorem ipsum dolor sit amet"
+    }
+    ]
 },
 {
     "detailedLinkID":"2",
@@ -26,23 +61,83 @@
       "link":"Alchemy"
     }
     ],
-   "images":["../images/akb/1.JPG","../images/akb/2.JPG","../images/akb/3.JPG","../images/akb/alchemy/4.JPG","../images/akb/alchemy/5.JPG","../images/akb/alchemy/6.JPG","../images/akb/alchemy/7.JPG"]
+   "images":[{
+      "imageLink":"../images/akb/1.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/2.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/3.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/4.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/5.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/6.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    }
+    ],
+     "videos":[{
+         "poster":"../images/posterimage.PNG",
+      "videoLink":"../images/samplevideo.mp4",
+      "caption":"Salman Khan selfi"
+    },
+    {
+        "poster":"../images/posterimage.PNG",
+      "videoLink":"../images/samplevideo.mp4",
+      "caption":"Lorem ipsum dolor sit amet"
+    }]
 }
 ,
 {
     "detailedLinkID":"3",
     "detaildHeader": "vix facete tamquam",
     "description":"argumentum id. Odio conceptam necessitatibus at vis, ei cum consulatu persecuti, autem insolens pro no. Alii assueverit eam eu. Ut vis feugait referrentur. In pro tincidunt comprehensam. Ea vix accusata volutpat.<br/>Ei vim minim omnes nostrud. Populo voluptaria complectitur ius no, vel eu wisi fierent suscipiantur. Mel et quot oportere constituam, nam civibus quaerendum ne. Ex eos lorem invenire oportere. Modus ipsum an est, at sint errem consectetuer est. Vero eius cu sea, vidit nulla est no.<br/>Vis nusquam accusam temporibus ei, ad facete oportere elaboraret eos. Vix autem facer an. Et per discere inimicus, ad pri purto partiendo eloquentiam, ne eos malis facilisis salutatus. Ignota dictas scripserit per et, per an illud dicta verterem. Option albucius dissentiet cu pri. Alia dicta at eum, solum pericula posidonium nec ne.<br/>Legendos disputationi id has, an cum quot iriure partiendo, etiam falli gubergren at eum. His deserunt delicata intellegam in, mei in iudico mandamus inimicus, porro veniam at cum. Vix quod melius ad, vero fabellas splendide nam te, sed an modus choro. No ornatus habemus qui, tantas dissentiet ius et, dolor audire reformidans ex duo. Sed liber alterum ei, mel cu putant facilisi evertitur, mea et postea praesent. Id mel melius nostrum consetetur, esse iudicabit pertinacia per ut.",
-    "workExhibited":[{
-      "title":"ABC Festival",
-      "link":"Unbox"
+    "workExhibited":[],
+  "images":[{
+      "imageLink":"../images/akb/alchemy/1.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
     },
     {
-      "title":"Alchemy Festival",
-      "link":"Alchemy"
+      "imageLink":"../images/akb/alchemy/2.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/alchemy/3.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/alchemy/4.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/alchemy/5.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
+    },
+    {
+      "imageLink":"../images/akb/alchemy/6.JPG",
+      "caption":"Lorem ipsum dolor sit amet"
     }
     ],
-   "images":["../images/akb/alchemy/1.JPG","../images/akb/alchemy/2.JPG","../images/akb/alchemy/3.JPG","../images/akb/alchemy/4.JPG","../images/akb/alchemy/5.JPG","../images/akb/alchemy/6.JPG","../images/akb/alchemy/7.JPG"]
+     "videos":[{
+         "poster":"../images/posterimage.PNG",
+      "videoLink":"../images/samplevideo.mp4",
+      "caption":"Salman Khan selfi"
+    },
+    {
+        "poster":"../images/posterimage.PNG",
+      "videoLink":"../images/samplevideo.mp4",
+      "caption":"Lorem ipsum dolor sit amet"
+    }]
 }
     ]
 }

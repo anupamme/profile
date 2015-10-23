@@ -73,16 +73,16 @@ padding-top: 15px;
 display: block;
 }
 .detailed-image-holder > img {
-      max-height: 100%;
-      height:auto;
-max-width: 660px;
+max-height: 100%;
+height: auto;
 display: block;
 width: auto;
-/* text-align: center; */
 margin: 0 auto;
 cursor: pointer;
-padding-bottom: 25px;
+width: 100%;
+padding-top:15px;
 }
+
 .detailed-content {
     margin-top:50px;
 }
