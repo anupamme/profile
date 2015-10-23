@@ -1,0 +1,5 @@
+{
+    "header": "alchemy header",
+    "description": "alchemy description",
+    "images": ["./images/akb/alchemy/1.JPG", "../images/akb/alchemy/2.JPG", "../images/akb/alchemy/3.JPG", "../images/akb/alchemy/4.JPG", "../images/akb/alchemy/5.JPG", "../images/akb/alchemy/6.JPG", "../images/akb/alchemy/7.JPG"]
+}

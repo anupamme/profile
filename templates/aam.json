@@ -1,0 +1,5 @@
+{
+    "header": "aam khaas baagh header",
+    "description": "aam khaas baagh description",
+    "images": ["./images/akb/1.JPG", "../images/akb/3.JPG", "../images/akb/4_1.JPG", "../images/akb/4_2.JPG", "../images/akb/5.JPG", "../images/akb/6.JPG", "../images/akb/7.JPG"]
+}
