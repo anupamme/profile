@@ -1,0 +1,81 @@
+<html ng-app="avenue">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=EmulateIE9">
+    <!--    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">-->
+    <title>Simran Chopra</title>
+
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+    <style>
+        .modal {
+            overflow-y: hidden;
+        }
+
+        .modal-open .modal {
+            overflow-y: scroll;
+        }
+
+        .modal-open .modal-shiftfix,
+        .modal-open .modal-shiftfix .navbar-fixed-top,
+        .modal-open .modal-shiftfix .navbar-fixed-bottom {
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal-shiftfix">
+        <div class="hidden-sm hidden-xs">
+            <div class="header-space">
+
+            </div>
+        </div>
+        <div class="header-section">
+            <nav class="navbar">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="logo" href="#/">Simran Chopra</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right cust-nav">
+                            <li><a href="#/">Work</a></li>
+                             <li><a href="#">Blog</a></li>
+                              <li><a href="#/about">About</a></li>
+                              <li><a href="#">Read Me</a></li>
+                        
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+
+        <div ng-view ng-cloak></div>
+        <div class="footer">
+            <div class="footer-text">&copy;Simran Chopra</div>
+        </div>
+    </div>
+</body>
+</html>
