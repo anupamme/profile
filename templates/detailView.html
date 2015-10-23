@@ -1,0 +1,51 @@
+<div class="container" ng-controller="detailedViewController">
+    <div class="row">
+        <div class="detailed-content">
+            <div class="col-md-3">
+                <div>
+                    <div class="detailed-header">{{item.detaildHeader}}</div>
+                    <br />
+                    <div class="detailed-description">
+                       <!-- {{item.description | nl2br}}-->
+                        <p ng-bind-html="item.description | nl2br"></p>
+                    </div>
+                    <br />
+                    <div class="detailed-header-detail">Work exhibited at: </div>
+                    <ul>
+                        <li ng-repeat="workExhibited in item.workExhibited">
+                            <a href="#/{{workExhibited.link}}">{{workExhibited.title}}</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-8">
+                <div class="detailed-image-list">
+                    <div class="detailed-image-holder" ng-repeat="imageSrc in item.images">
+                        <img src="{{imageSrc}}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="backtowork-content-holder">
+                <div class="pull-left"><a href="#/">Back to Work</a></div>
+                <div class="pull-right"><a href="">prev</a>&nbsp;/&nbsp;<a href="#">next</a></div>
+            </div>
+        </div>
+        <div ng-show="noDataFound"><h2>No Data Found</h2></div>
+        <div class="col-md-4" ng-repeat="item in list">
+            <a class="content-holder" href="#/detailedView/{{item.detailedLinkID}}">
+               <div class="image-holder">
+                    <img src="{{item.coverImage}}"/></div>
+                <div class="text-holder">{{item.title}}</div>
+            </a>
+        </div>
+
+    </div>
+</div>

@@ -1,47 +1,11 @@
-<div class="container">
+<div class="container" ng-controller="homeController">
     <div class="row">
-        <div class="col-md-4">
-            <a class="content-holder" href="#/detailedView">
+        <div class="col-md-4" ng-repeat="item in items">
+            <a class="content-holder" href="#/detailedView/{{item.detailedLinkID}}">
                 <div class="image-holder">
-                    <img src="../images/akb/cover_1.JPG" height="" /></div>
-                <div class="text-holder">aam khas baag</div>
+                    <img src="{{item.coverImage}}"/></div>
+                <div class="text-holder">{{item.title}}</div>
             </a>
-        </div>
-           <div class="col-md-4">
-            <a class="content-holder" href="#/detailedView">
-                <div class="image-holder">
-                    <img src="../images/image2.jpg" /></div>
-                <div class="text-holder">mountains</div>
-            </a>
-        </div>
-           <div class="col-md-4">
-            <a class="content-holder" href="#/detailedView">
-                <div class="image-holder">
-                    <img src="../images/image3.jpg" /></div>
-                <div class="text-holder">mountains</div>
-            </a>
-        </div>
-          <div class="col-md-4">
-            <a class="content-holder" href="#/detailedView">
-                <div class="image-holder">
-                    <img src="../images/image1.jpg" /></div>
-                <div class="text-holder">mountains</div>
-            </a>
-        </div>
-           <div class="col-md-4">
-            <a class="content-holder" href="#/detailedView">
-                <div class="image-holder">
-                    <img src="../images/image2.jpg" /></div>
-                <div class="text-holder">mountains</div>
-            </a>
-        </div>
-           <div class="col-md-4">
-            <a class="content-holder" href="#/detailedView">
-                <div class="image-holder">
-                    <img src="../images/image3.jpg" /></div>
-                <div class="text-holder">mountains</div>
-            </a>
-        </div>
-          
+        </div>          
     </div>
 </div>

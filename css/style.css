@@ -44,14 +44,12 @@ font-family: "dinfont" !important;
 }
 .image-holder > img {
     max-width: 100%;
-max-height: 360px;
 width: auto;
 display: block;
 height: auto;
-/* text-align: center; */
 margin: 0 auto;
 cursor: pointer;
-/*min-height: 360px;*/
+min-height: 360px;
 }
 .text-holder {
     font-size: 14px;

@@ -1,0 +1,42 @@
+{ "items":[{
+    "detailedLinkID":"1",
+    "title": "aam khaas baagh header",
+    "coverImage": "../images/akb/cover_1.jpg"
+    },
+    {
+    "detailedLinkID":"2",
+    "title": "Mountaines",
+    "coverImage": "../images/image1.jpg"
+    },
+     {
+    "detailedLinkID":"3",
+    "title": "Ice Cap",
+    "coverImage": "../images/image2.jpg"
+    },
+     {
+    "detailedLinkID":"4",
+    "title": "Beach",
+    "coverImage": "../images/image3.jpg"
+    },
+    {
+    "detailedLinkID":"5",
+    "title": "Cloud",
+    "coverImage": "../images/image4.jpg"
+    },
+    {
+    "detailedLinkID":"6",
+    "title": "Ice Cap",
+    "coverImage": "../images/image5.jpg"
+    },
+     {
+    "detailedLinkID":"7",
+    "title": "Beach",
+    "coverImage": "../images/image6.jpg"
+    },
+    {
+    "detailedLinkID":"8",
+    "title": "Cloud",
+    "coverImage": "../images/image2.jpg"
+    }
+    ]
+}
