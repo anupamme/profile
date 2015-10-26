@@ -62,6 +62,8 @@ font-weight: 300;
 font-style: normal;
 color: #404040;
 padding-top: 15px;
+height: 56px;
+overflow: hidden;
 }
 .content-holder:hover,
 .content-holder:focus,
